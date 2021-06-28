@@ -120,7 +120,7 @@
 			speed: 1000
 		});
 
-		$('#liViewCd').click(function(){
+		$('[id^="liViewCd"]').click(function(){
 			var projNm = $(this).data("projnm");
 			location.href = "generic.html?projNm="+projNm;
 		});
