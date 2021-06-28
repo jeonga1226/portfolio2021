@@ -3779,6 +3779,10 @@ input, select, textarea {
 					border-top-left-radius: 0.25em;
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
+					max-height:450px;
+					padding: 0.5em;
+					background-color: rgb(208, 208, 208);
+					border: dotted;
 				}
 
 		@media screen and (max-width: 1280px) {
