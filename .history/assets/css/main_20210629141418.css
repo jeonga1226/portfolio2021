@@ -2642,7 +2642,7 @@ input, select, textarea {
 	
 	section.special section.inner-sec {
 		margin-top: 1em;
-		border-bottom : dotted rgba(208, 208, 208, 0.474) 2px;
+		border-bottom : dotted rgb(208, 208, 208) 2px;
 	}
 
 	header.major {

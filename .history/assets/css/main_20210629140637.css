@@ -2639,14 +2639,11 @@ input, select, textarea {
 	section.special, article.special.txt-left {
 		text-align: left !important;
 	}
-	
-	section.special section.inner-sec {
-		margin-top: 1em;
-		border-bottom : dotted rgba(208, 208, 208, 0.474) 2px;
-	}
 
 	header.major {
 		margin-bottom: 3em;
+		margin-top: 1em;
+		border-bottom: dotted;
 	}
 
 		header.major h2 {
