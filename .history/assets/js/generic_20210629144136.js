@@ -30,8 +30,6 @@
         codeInfo = "자동이체 변경";
     }
 
-    imgUrl = (imgUrl == "") ? "images/pic04.jpg" : imgUrl;
-
     $('#header > h1').text(projKrName);
     $('#header > p').text(projPeriod);
     $('#spTopImg > img').attr('src', imgUrl);

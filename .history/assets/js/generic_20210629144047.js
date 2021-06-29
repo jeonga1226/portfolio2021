@@ -12,12 +12,12 @@
         projKrName = "동화기업 물류창고 자동화";  
         projPeriod ="2020.8 - 2020.11"; 
         imgUrl="images/img_top_dh.png"; 
-        codeInfo = "이적 > 제품 스캔 안내";
+        codeInfo = "재고실사";
     } else if(pageNm == "projhw") { 
         projKrName = "한화생명 헬로";  
         projPeriod ="2019.10 ~ 2021.02"; 
         imgUrl="";
-        codeInfo = "챌린지 홈";
+        codeInfo = "홈 > 챌린지";
     } else if(pageNm == "projjp") {
         projKrName = "조폐공사 지역상품권 CHAK 고도화";  
         projPeriod ="2019.06 ~ 2019.09"; 
@@ -29,8 +29,6 @@
         imgUrl="";
         codeInfo = "자동이체 변경";
     }
-
-    imgUrl = (imgUrl == "") ? "images/pic04.jpg" : imgUrl;
 
     $('#header > h1').text(projKrName);
     $('#header > p').text(projPeriod);

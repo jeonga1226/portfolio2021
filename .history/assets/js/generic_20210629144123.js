@@ -17,7 +17,7 @@
         projKrName = "한화생명 헬로";  
         projPeriod ="2019.10 ~ 2021.02"; 
         imgUrl="";
-        codeInfo = "챌린지 홈";
+        codeInfo = "홈 > 챌린지";
     } else if(pageNm == "projjp") {
         projKrName = "조폐공사 지역상품권 CHAK 고도화";  
         projPeriod ="2019.06 ~ 2019.09"; 
@@ -29,8 +29,6 @@
         imgUrl="";
         codeInfo = "자동이체 변경";
     }
-
-    imgUrl = (imgUrl == "") ? "images/pic04.jpg" : imgUrl;
 
     $('#header > h1').text(projKrName);
     $('#header > p').text(projPeriod);
