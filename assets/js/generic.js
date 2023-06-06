@@ -23,13 +23,13 @@
         projPeriod ="2019.06 ~ 2019.09"; 
         imgUrl="";
         codeInfo = "이용내역";
-    } else { 
+    } else if(pageNm == "projpd") { 
         projKrName = "푸르덴셜 모바일센터";  
         projPeriod ="2018.4 - 2018.6"; 
         imgUrl="";
         codeInfo = "자동이체 변경";
-    }
-
+    } 
+    
     imgUrl = (imgUrl == "") ? "images/pic04.jpg" : imgUrl;
 
     $('#header > h1').text(projKrName);
